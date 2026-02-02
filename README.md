@@ -1,27 +1,62 @@
- # Analisis Penjualan Formee Outfit 2024
 
-## Repository Outline
-1. READ.md - Penjelasan gambaran umum project
-2. P0M1_muhammad_zhafir_abdurrahman.ipynb - Notebook berisi pengolahan data berupa cleaning dan dilakukan analisis statistika deskriptif dan Inferensial untuk menjawab permasalahan
-3. P0M1_muhammad_zhafir_abdurrahman_dataset.xlsx - Berisi dataset penjualan pada toko Formee Outfit di tahun 2024
-
-
-## Problem Background
-Industri e-commerce di Indonesia sedang mengalami trend kenaikan dalam beberapa tahun terakhir, namun dengan kenaikan ini terjadi persaingan yang ketat antar toko sehingga dibutuhkan sebuah strategi agar dapat bersaing dengan toko lain, oleh sebab itu dibutuhkan pemahaman mengenai pola penjualan dan perilaku pelanggan secara baik. Formee Outfit sebagai salah satu pelaku usaha di platform e-commerce Shopee mengalami fluktuasi penjualan tiap bulan selama tahun 2024. Hal ini dapat dilihat dari jumlah pengunjung, konversi pesanan dan pembelian berulang sebagai indikator untuk menilai efektivitas strategi dan retensi pelanggan.
-
-## Project Output
-Output dari analisis ini adalah sebuah rekomendasi untuk meningkatkan penjualan pada toko Formee Outfit
-
-## Data
-Dataset yang akan digunakan berasal dari internal dashboard e-commerce Formee Outfit. Data dikumpulkan secara otomatis oleh sistem platform sebagai laporan bulanan dalam format xlsx, yang berisi data penjualan perharinya dalam satu bulan sehingga data yang berhasil dikumpulkan sebanyak 366 hari dengan 16 column variabel.
-
-## Method
-Method analisis yang digunakan adalah Statistic Descriptive dan Statistic Infenercial untuk menjawab semua main problem dari dataset
-
-## Stacks
-Program ini dijalankan dengan bahasa pemrograman python dengan library yang digunakan adalah pandas untuk mengeluarkan output berupa panel data, seaborn dan matplotlib untuk melakukan visualisasi data, scipy untuk perhitungan statistika.
-
-## Reference
-https://public.tableau.com/app/profile/muhammad.zhafir.abdurrahman/viz/Book1_17623587428560/Dashboard1?publish=yes&showOnboarding=true
+**File Description:**
+- **README.md**  
+  Project overview and documentation  
+- **sales_dataset.ipynb**  
+  Data processing notebook containing data cleaning, descriptive statistics, and inferential statistical analysis  
+- **raw_dataset.xlsx**  
+  Sales dataset of Formee Outfit for the year 2024  
 
 ---
+
+## 📖 Background
+The e-commerce industry in Indonesia has shown rapid growth in recent years. However, this growth has intensified competition among online stores, making data-driven strategies essential for maintaining competitiveness. Understanding sales patterns and customer behavior is crucial to improving performance.
+
+Formee Outfit experienced monthly sales fluctuations throughout 2024. These variations can be observed through key performance indicators such as visitor counts, order conversion rates, and repeat purchases, which are used to evaluate strategy effectiveness and customer retention.
+
+---
+
+## 🎯 Objectives
+- Analyze sales trends and performance patterns  
+- Evaluate customer behavior and retention indicators  
+- Provide data-driven recommendations to improve sales performance  
+
+---
+
+## 📊 Data Description
+- **Source:** Internal e-commerce dashboard of Formee Outfit  
+- **Format:** XLSX  
+- **Granularity:** Daily sales data  
+- **Time Period:** January–December 2024  
+- **Observations:** 366 days  
+- **Variables:** 16 columns  
+
+---
+
+## 🔍 Methodology
+The analysis applies:
+- **Descriptive Statistics** to summarize and explore sales data  
+- **Inferential Statistics** to identify relationships and draw conclusions related to sales performance  
+
+---
+
+## 🛠️ Tech Stack
+
+| Category            | Tools / Libraries                         |
+|---------------------|-------------------------------------------|
+| Programming Language| Python                                    |
+| Data Manipulation   | Pandas                                    |
+| Data Visualization  | Seaborn, Matplotlib                       |
+| Statistical Analysis| Scipy                                     |
+| Dashboard           | Tableau                                   |
+
+---
+
+## 📈 Output
+The final output of this project is a set of **business recommendations** aimed at improving sales performance and customer retention for Formee Outfit.
+
+---
+
+## 🔗 Dashboard Reference
+Tableau Public Dashboard:  
+https://public.tableau.com/app/profile/muhammad.zhafir.abdurrahman/viz/Book1_17623587428560/Dashboard1?publish=yes&showOnboarding=true

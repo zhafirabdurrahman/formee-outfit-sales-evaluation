@@ -2,7 +2,7 @@
 **File Description:**
 - **README.md**  
   Project overview and documentation  
-- **sales_dataset.ipynb**  
+- **sales.ipynb**  
   Data processing notebook containing data cleaning, descriptive statistics, and inferential statistical analysis  
 - **raw_dataset.xlsx**  
   Sales dataset of Formee Outfit for the year 2024  
